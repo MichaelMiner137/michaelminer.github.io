@@ -38,7 +38,7 @@
 
 
 .showcase_content{
-    border: 3px solid #292929;
+    
 }
 
 @media(max-width: 1200px){
@@ -92,7 +92,7 @@
 .module_content h2{
     display: inline;
 
-    font-size: 15px;
+    font-size: 17px;
     color: #292929;
 }
 
