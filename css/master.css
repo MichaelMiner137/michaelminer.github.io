@@ -61,7 +61,7 @@ a{
     display: inline;
     text-align: center;
 
-    border: 3px solid #808080;
+    border: 2px solid #808080;
     border-radius: 10px;
     margin: 30px 10px;
     padding: 5px;
@@ -73,6 +73,20 @@ a{
     color: rgb(134, 134, 134);
 }
 
+@media(max-width: 1000px){
+    #navbar_container{
+        width: 95%;
+    }
+    .nav_links {
+        padding: 15px 0px 0px 0px;
+    }
+    #navbar h1{
+        font-size: 15px;
+    }
+    .nav_link a{
+        font-size: 15px;
+    }
+}
 
 /*
 #navbar a:hover img[src="image/nav/home.png"] {
