@@ -1,0 +1,67 @@
+
+/* ========== SHOWCASE STRUCTURE ========== */
+
+#showcase_container{
+    width: 90%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+
+.showcase{
+    margin: 1% 1%;
+    width: 30%;
+    float: left;
+    
+    border: 5px solid #292929;
+    border-radius: 30px;
+    background-color: #9e9e9e;
+    color: black;
+    
+    box-sizing: border-box;
+
+}
+
+
+@media(max-width: 1500px){
+    .showcase{
+        width: 48%;
+    }
+}
+
+@media(max-width: 1000px){
+    .showcase{
+        width: 100%;
+    }
+}
+
+
+/* ========== SHOWCASE CONTENT STRUCTURE ========== */
+
+.module_image{
+    margin: 2% 2%;
+    width: 30%;
+    float: left;
+
+    border-radius: 10px;
+}
+
+.module_content{
+    margin: 2% 1%;
+    width: 60%;
+    float: right;
+
+    box-sizing: border-box;
+}
+
+/* ========== SHOWCASE CONTENT ========== */
+
+.module_content h1{
+    margin: 10px 10px 0px 0px;
+}
+
+.module_content p{
+    font-size: 25px;
+}

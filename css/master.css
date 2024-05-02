@@ -30,6 +30,12 @@ a{
 
 /* ========== NAV BAR ========== */
 
+#navbar_container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
 #navbar{
     background-color: #1d1d1d;
     color:white;
@@ -45,21 +51,28 @@ a{
     color: #7e7e7e;
 }
 
-#navbar ul{
+.nav_links {
     float: right;
-    padding: 0 0 0 20px;
+    padding: 25px 0px 0px 0px;
     list-style: none;
 }
 
-#navbar li{
+.nav_link{
     display: inline;
+    text-align: center;
+
+    border: 3px solid #808080;
+    border-radius: 10px;
+    margin: 30px 10px;
+    padding: 5px;
 }
 
-#navbar ul li img{
-    width: 40px;
-    height: auto;
-    margin-right: 25px;
+.nav_link a{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(134, 134, 134);
 }
+
 
 /*
 #navbar a:hover img[src="image/nav/home.png"] {
