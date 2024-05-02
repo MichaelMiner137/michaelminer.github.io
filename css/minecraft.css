@@ -57,6 +57,9 @@
 }
 
 @media(max-width: 1500px){
+    #showcase_introduction{
+        width: 85%;
+    }
     #showcase_container{
         width: 90%;
         margin: 30px auto;
