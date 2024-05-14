@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../image/icon.png">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/repository.css">
+    <title>MichaelModulo (Minecraft)</title>
+
+</head>
+<body>
+
+    <!-- ========== NAV BAR ========== -->
+    <nav id="navbar">
+        <div id="navbar_container">
+            <h1>Repository</h1>
+            <div class="clr"></div>
+            <div class="nav_links">
+                <div class="nav_link"><a href="../page/home.html">Home</a></div>
+                <div class="nav_link"><a href="../page/links.html">Links</a></div>
+                <div class="nav_link"><a href="../page/minecraft.html">Minecraft</a></div>
+                <div class="nav_link"><a href="../page/repository.html">Repository</a></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ========== SHOWCASE INTRODUCTION ========== -->
+    <div id="showcase_introduction">
+
+        <p>Welcome to my little repository of knowledge, a random collection of information and tips I have gathered over time and will occasionally reference.</p>
+
+    </div>
+
+
+    <!-- ========== SHOWCASE CONTAINER ========== -->
+    <div id="showcase_container">
+
+        <!-- ===== SHOWCASE ===== -->
+        <div class="showcase">
+            <div class="showcase_header" type="Git">
+                <h1>Git</h1>
+            </div>
+            <div class="showcase_content">
+                <div class="module_content">
+                    <h1>Delete the last 4 commits.</h1>
+                    <p>Make a backup of your work and run:<br>> git reset --hard HEAD~4<br>> git push origin HEAD --force</p>
+                    <p><b>Note:</b> If you used the wrong account it might still contain the account as a contributor.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SHOWCASE ===== -->
+        <div class="showcase">
+            <div class="showcase_header" type="Git">
+                <h1>Git</h1>
+            </div>
+            <div class="showcase_content">
+                <div class="module_content">
+                    <h1>A better git pull.</h1>
+                    <p>Source: <a href="https://www.youtube.com/watch?v=xN1-2p06Urc">Philomatics</a></p>
+                    <p>> git pull --rebase<br><br>   Merge conflict? Undo with:<br>> git rebase --abort</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SHOWCASE ===== -->
+        <div class="showcase">
+            <div class="showcase_header" type="Git">
+                <h1>Git</h1>
+            </div>
+            <div class="showcase_content">
+                <div class="module_content">
+                    <h1>Custom git commands.</h1>
+                    <p>Source: <a href="https://www.youtube.com/watch?v=CAnQ4b0uais">Philomatics</a></p>
+                    <p>Set VSCode as default editor and open editor.<br>> git config --global core.editor "code --wait"<br>> git config --global --edit</p>
+                    <p>Useful aliases to add under [alias] section.<br>sta = status -s<br>editg = config --global --edit<br>editl = config --local --edit</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

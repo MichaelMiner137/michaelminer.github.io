@@ -1,0 +1,108 @@
+
+/* ========== SHOWCASE STRUCTURE ========== */
+
+#showcase_introduction{
+    width: 50%;
+    margin: 60px auto 0px;
+    padding: 0px 20px;
+
+    border: 5px solid #292929;
+    border-radius: 30px;
+
+    color: black;
+    font-size: 20px;
+    text-align: center;
+
+    background-color: #b9b9b9;
+}
+
+#showcase_container{
+    width: 90%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.showcase{
+    margin: 1% 1%;
+    width: 90%;
+    float: left;
+    
+    border: 5px solid #292929;
+    border-radius: 30px;
+    background-color: #9e9e9e;
+    color: black;
+    
+    box-sizing: border-box;
+
+}
+
+.showcase_header{
+    border: 3px solid #292929;
+    padding: 0px;
+    border-radius: 22px 22px 0px 0px;
+    text-transform: capitalize;
+    display: block;
+}
+.showcase_header h1{ margin: 5px 20px; font-size: 30px; text-align: left;}
+.showcase_header[type="Git"]{ background-color: #5f6eb9; }
+.showcase_header[type="Unity"]{ background-color: #3dc8d7; }
+
+
+.showcase_content{
+    
+}
+
+@media(max-width: 1500px){
+    #showcase_introduction{
+        width: 85%;
+    }
+    #showcase_container{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .showcase{
+        margin: 2% 0%;
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* ========== SHOWCASE CONTENT STRUCTURE ========== */
+
+.module_content{
+    margin: 2% 1%;
+    width: 95%;
+    float: right;
+
+    box-sizing: border-box;
+}
+
+@media(max-width: 1500px){
+
+    .module_content{
+        width: 100%;
+        float: none;
+    }
+}
+
+/* ========== SHOWCASE CONTENT ========== */
+
+.module_content h1{
+    margin: 0px 10px 0px 0px;
+    display: inline;
+}
+
+.module_content h2{
+    display: inline;
+
+    font-size: 17px;
+    color: #292929;
+}
+
+.module_content p{
+    font-size: 20px;
+}
